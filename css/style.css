@@ -1,0 +1,330 @@
+/* Website template by freewebsitetemplates.com */
+
+/*Layout*/
+
+#content 
+{
+	
+}
+
+#content div#section 
+{
+	padding-top:300px;
+}
+#content div#section
+{
+	width: 50%;
+}
+#content div#section div#figure 
+{
+	width: 50%;
+}
+
+
+body {
+	color: #745b1b;
+	font-family: 'AndikaRegular';
+	margin: 0;
+	min-width: 950px;
+	padding: 0;
+}
+
+a {
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+p a {
+	font-style: italic;
+}
+
+#header {
+	background: url(../images/bg-header.gif) repeat;
+	width: 100%;
+	margin: 0 auto;
+	padding-top:5px;
+}
+
+#header div {
+	margin: 5px auto 0;
+	width: 980px;
+}
+
+#header #logo {
+	display:flex;
+	justify-content: space-between;
+}
+
+#navigation
+{
+	font-family: 'CarterOneRegular';
+	line-height: 105%;
+	padding-left: 4px;
+	height: 48px;
+	clear: both;
+	min-width: 600px;
+	display:flex;
+	background: url(../images/separator-navigation.gif) no-repeat right;
+}
+
+#navigation a 
+{
+	background: url(../images/separator-navigation.gif) no-repeat left;
+	padding: 15px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	flex-grow:1;
+	text-align: center;
+	color: #745b1b;
+}
+
+#navigation .current a, #navigation a:hover 
+{
+	color: #745b1b;
+	text-shadow: 1px 1px 0 #f2fcd9;
+	background: url(../images/bg-navigation.gif) repeat-x bottom;
+}
+
+#content {
+	background: url(../images/ksu-1.jpg) top center/cover;
+	width: 100%;
+}
+
+#content div#section {
+	background-image: linear-gradient(to bottom, rgba(20,20,20,0), rgba(20,20,20,0.7));
+	width: 100%;
+}
+
+#content div
+{
+    padding: 10px;
+	text-align: center;
+	color:white;
+	width: 800px;
+}
+
+#content #intro h1 {
+	font-family: 'CarterOneRegular';
+	font-size: 36px;
+	line-height: 36px;
+	padding: 0;
+	text-shadow: 1px 1px 0 #fff0d8;
+	width: auto;
+}
+
+#content #intro p {
+	line-height: 1.8em;
+	font-size: 1.4em;
+	margin: 0;
+	padding: 15px 0 0;
+	text-align: center;
+	width: auto;
+}
+
+#content #featureaction
+{}
+
+#content #featureaction span {
+	background: none;
+	display: block;
+    height: auto;
+    left: 0;
+    margin-top: 17px;
+    position: static;
+    top: 0;
+    width: auto;
+}
+
+#content #featureaction span a 
+{
+	color: #fdfdfb;
+	display: inline-block;
+	font-family: 'CarterOneRegular';
+	font-size: 1.6em;
+	padding: 5px;
+    height: 38px;
+    line-height: 37px;
+	margin-left: 10px;
+    text-align: center;
+	text-decoration: none;
+    width: 200px;
+	background-color: #d1ab5e;
+}
+
+#content #featureaction span a:hover
+{
+	color: #222222;
+	background-color: white;
+}
+
+
+#content div#section div#figure img, 
+#content div div img, #content div#featured ul li img {
+	border: 3px solid #fff;
+}
+#content div#section div#figure span {
+	background: url(../images/bg-headliner-image-shadow.jpg) no-repeat center;
+	display: block;
+	height: 13px;
+	margin-top: -6px;
+	width: 612px;
+}
+
+
+#content div#section span.background {
+	background: url(../images/bg-headliner-bottom-shadow.jpg) no-repeat center;
+	top: 328px;
+	display: block;
+	height: 37px;
+	position: relative;
+	width: 950px;
+}
+
+#content div#featured {
+	background: url(../images/bg-featured.gif) repeat-x top center;
+	height: 356px;
+	padding: 35px 0;
+	width: 100%;
+}
+
+#content div {
+	margin: 0 auto;
+	padding: 0 0 40px;
+	width: 950px;
+}
+
+#content div p {
+	line-height: 21px;
+    margin: 0;
+    padding-bottom: 25px;
+	text-align: left;
+}
+
+
+#content div h2 {
+	font-family: 'CarterOneRegular';
+	font-size: 25px;
+	margin: 0;
+	padding: 25px 0 10px;
+	text-shadow: 1px 1px 0 #C8B57D
+}
+
+#content div h2 span {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#content div.section {
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#content div.section h4 {
+	color: #73541B;
+	font-family: 'CarterOneRegular';
+	font-size: 18px;
+	line-height: 20px;
+    padding-top: 30px;
+	text-shadow: 1px 1px 0 #C8B57D;
+}
+
+#content div.section div {
+	padding-top: 10px;
+}
+
+#content div.section div a {
+	background: url(../images/sprites-buttons.gif) no-repeat center -105px;
+	color: #ceb57d;
+	display: block;
+	font-family: 'CarterOneRegular';
+	font-size: 16px;
+	line-height: 50px;
+	margin-top: 25px;
+	text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+	width: 283px;
+}
+
+#content div.section div a.selected, #content div.section div a:hover {
+	background: url(../images/sprites-buttons.gif) no-repeat 0 0;
+	color: #FDFDFB;
+	text-shadow: 1px 1px 0 #216B20;
+}
+
+#content div.section div.figure a {
+	background: none;
+	margin-top: 0;
+}
+
+#content div table {
+	margin-top: 30px;
+}
+
+#content div form table tr td input#name,
+#content div form table tr td input#email,
+#content div form table tr td input#subject {
+	background: url(../images/sprites-inputs.gif) no-repeat 0 -82px;
+	border: 0;
+	color: #FFFEFF;
+    font-family: Arial;
+    font-size: 12px;
+	height: 38px;
+	margin-left: 20px;
+	padding: 0 5px;
+	width: 259px;
+}
+
+
+#footer {
+	width: 100%;
+	text-align: center;
+}
+
+#footer div {
+	color: #222222;
+	float: none;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 10px;
+	width: 950px;
+
+}
+
+
+#footer div div h3 {
+	color: #fcfcfc;
+	font-family: 'CarterOneRegular';
+	font-size: 20px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+
+
+@font-face {
+    font-family: 'AndikaRegular';
+    src: url('../fonts/andika-r-webfont.eot');
+    src: url('../fonts/andika-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andika-r-webfont.woff') format('woff'),
+         url('../fonts/andika-r-webfont.ttf') format('truetype'),
+         url('../fonts/andika-r-webfont.svg#AndikaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CarterOneRegular';
+    src: url('../fonts/carterone-webfont.eot');
+    src: url('../fonts/carterone-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/carterone-webfont.woff') format('woff'),
+         url('../fonts/carterone-webfont.ttf') format('truetype'),
+         url('../fonts/carterone-webfont.svg#CarterOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
